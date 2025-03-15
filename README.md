@@ -74,6 +74,4 @@ src/
 - Task assignments to team members
 - Activity history and logs
 
-## License
 
-MIT
