@@ -74,4 +74,7 @@ src/
 - Task assignments to team members
 - Activity history and logs
 
+## 📺 Video Demo
+[![Watch the video](https://img.youtube.com/vi/VwTyA_GmiHY/maxresdefault.jpg)](https://youtu.be/VwTyA_GmiHY)
+
 
