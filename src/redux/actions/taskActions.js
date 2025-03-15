@@ -47,44 +47,43 @@ export const loadTasks = () => {
         payload: tasks
     };
 };
-
-// Generate some sample tasks to get started
+// Add this to your taskActions.js to ensure proper task structure
 const generateInitialTasks = () => {
     return [
         {
-            id: uuidv4(),
+            id: 'task-1', // Make sure IDs are strings
             title: 'Research project requirements',
             description: 'Gather all necessary information and resources for the upcoming project.',
-            status: 'toDo',
-            createdAt: new Date().toISOString()
+            status: 'toDo', // Match exactly with column IDs
+
         },
         {
-            id: uuidv4(),
+            id: 'task-2',
             title: 'Design database schema',
             description: 'Create the database structure including tables and relationships.',
             status: 'toDo',
-            createdAt: new Date().toISOString()
+
         },
         {
-            id: uuidv4(),
+            id: 'task-3',
             title: 'Setup project repository',
             description: 'Initialize Git repository and set up basic project structure.',
             status: 'inProgress',
-            createdAt: new Date().toISOString()
+
         },
         {
-            id: uuidv4(),
+            id: 'task-4',
             title: 'Implement authentication',
             description: 'Add user login, registration, and authentication features.',
             status: 'peerReview',
-            createdAt: new Date().toISOString()
+
         },
         {
-            id: uuidv4(),
+            id: 'task-5',
             title: 'Write unit tests',
             description: 'Create comprehensive tests for all major components.',
             status: 'done',
-            createdAt: new Date().toISOString()
+
         }
     ];
 };
