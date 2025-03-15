@@ -1,4 +1,4 @@
-# Kanban Board 
+# Kanban Board
 
 A responsive Kanban board application built with React and Redux that allows users to manage tasks across different stages with drag-and-drop functionality.
 

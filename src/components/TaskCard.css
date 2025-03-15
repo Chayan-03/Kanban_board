@@ -1,0 +1,32 @@
+
+.task-card {
+    background-color: white;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.task-card:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dragging {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    opacity: 0.9;
+}
+
+.task-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #172b4d;
+}
+
+.task-description {
+    font-size: 13px;
+    color: #5e6c84;
+    line-height: 1.4;
+}
